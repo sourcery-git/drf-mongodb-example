@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.log
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE
+.idea
+.vs
+*.code-workspace
+*.pyproj*
+*.sln
+bin/
+obj/
+
+### Visual Studio Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Environment
+.env
+
+# Django
+/static/
+media/
+django_cache/
+
+# Database
+*.sqlite*
+
+# Other
+misc/
